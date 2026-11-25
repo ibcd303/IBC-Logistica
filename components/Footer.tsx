@@ -14,7 +14,7 @@ export default function Footer() {
           <Link href="/contacto" className="hover:text-white transition">Contacto</Link>
         </div>
         <p className="text-xs text-slate-500">
-          © 2026 IBC Logística. Proyecto final del curso.
+          © 2026 IBC Logística. Ibeth Calvo -  Proyecto final del curso.
         </p>
       </div>
     </footer>
