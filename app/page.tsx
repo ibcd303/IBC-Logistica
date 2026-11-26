@@ -184,9 +184,9 @@ export default function HomePage() {
             <div>
               <div className="h-48 overflow-hidden relative">
                 <img
-                  src=• "/images/avion.jpeg"
+                  src="/images/avion.jpeg"
 
-                alt="Avión de carga comercial en pista"
+                alt="Avión de carga en pista de aeropuerto"
                 className="w-full h-full object-cover"
                 />
                 <div className="absolute top-3 left-3 bg-slate-900/85 backdrop-blur-sm text-white p-2 rounded-lg">
