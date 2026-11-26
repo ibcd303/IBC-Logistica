@@ -8,7 +8,7 @@ export default function ServiciosPage() {
       codigo: 'MOD-01 · CARRETERA',
       titulo: 'Transporte Terrestre',
       icono: <Truck className="w-5 h-5 text-blue-400" />,
-      imagen: 'https://unsplash.com',
+      imagen: '/images/camion.jpg',
       alt: 'Camión de transporte de mercancías en autopista',
       descripcion:
         'Operaciones nacionales e internacionales por carretera mediante camiones completos (FTL) y partidas de grupaje (LTL) con salidas regulares.',
@@ -25,7 +25,7 @@ export default function ServiciosPage() {
       codigo: 'MOD-02 · FLETE MARÍTIMO',
       titulo: 'Transporte Marítimo',
       icono: <Ship className="w-5 h-5 text-blue-400" />,
-      imagen: 'https://unsplash.com',
+      imagen: '/images/barco.jpg',
       alt: 'Buque portacontenedores operando en terminal portuaria',
       descripcion:
         'Gestión integral de embarques en contenedor completo (FCL 20’/40’) y carga consolidada (LCL) conectando los principales puertos comerciales.',
@@ -42,7 +42,7 @@ export default function ServiciosPage() {
       codigo: 'MOD-03 · CARGA AÉREA',
       titulo: 'Transporte Aéreo',
       icono: <Plane className="w-5 h-5 text-blue-400" />,
-      imagen: 'https://unsplash.com',
+      imagen: '/images/avion.jpeg',
       alt: 'Avión comercial de carga en aeropuerto internacional',
       descripcion:
         'Soluciones prioritarias para expediciones urgentes, muestras comerciales, componentes industriales o mercancía de alto valor añadido.',

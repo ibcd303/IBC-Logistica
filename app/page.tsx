@@ -44,7 +44,7 @@ export default function HomePage() {
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl">
 
               <img
-                src="fondocb.jpg"
+                src="/images/fondocb.jpg"
                 alt="Terminal logística de contenedores y transporte de carga"
                 className="w-full h-[360px] md:h-[420px] object-cover"
               />
