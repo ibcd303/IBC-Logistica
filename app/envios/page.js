@@ -65,7 +65,7 @@ export default function EnviosPage() {
 
   return (
     <div className="max-w-6xl mx-auto py-12 px-4">
-      <h1 className="text-3xl font-bold text-slate-900 mb-8">Gestión de Envíos (CRUD)</h1>
+      <h1 className="text-3xl font-bold text-slate-900 mb-8">Gestión de Envíos </h1>
 
       {/* Formulario Crear / Editar */}
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 mb-10">
