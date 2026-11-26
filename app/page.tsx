@@ -13,16 +13,16 @@ export default function HomePage() {
               <span className="w-2 h-2 rounded-full bg-blue-500"></span>
               Operador logístico internacional · Importación y exportación
             </div>
-            
+
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] mb-6">
               Transporte de carga por{' '}
               <span className="text-blue-400">Tierra, Mar y Aire</span>
             </h1>
-            
+
             <p className="text-base md:text-lg text-slate-300 max-w-xl mb-8 leading-relaxed">
               Gestionamos tus operaciones de mercancía nacional e internacional con trazabilidad completa, despacho aduanero y cumplimiento de plazos en cada ruta.
             </p>
-            
+
             <div className="flex flex-wrap items-center gap-4">
               <Link
                 href="/envios"
@@ -42,8 +42,9 @@ export default function HomePage() {
           {/* Columna Derecha: Fotografía real con marco editorial */}
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl">
+
               <img
-                src="https://unsplash.com"
+                src="fondocb.jpg"
                 alt="Terminal logística de contenedores y transporte de carga"
                 className="w-full h-[360px] md:h-[420px] object-cover"
               />
@@ -109,7 +110,7 @@ export default function HomePage() {
             <div>
               <div className="h-48 overflow-hidden relative">
                 <img
-                  src="https://unsplash.com"
+                  src="/images/camion.jpg"
                   alt="Camión de transporte terrestre en ruta"
                   className="w-full h-full object-cover"
                 />
@@ -146,7 +147,7 @@ export default function HomePage() {
             <div>
               <div className="h-48 overflow-hidden relative">
                 <img
-                  src="https://unsplash.com"
+                  src="/images/barco.jpg"
                   alt="Buque portacontenedores en puerto marítimo"
                   className="w-full h-full object-cover"
                 />
@@ -183,11 +184,12 @@ export default function HomePage() {
             <div>
               <div className="h-48 overflow-hidden relative">
                 <img
-                  src="https://unsplash.com"
-                  alt="Avión de carga comercial en pista"
-                  className="w-full h-full object-cover"
+                  src=• "/images/avion.jpeg"
+
+                alt="Avión de carga comercial en pista"
+                className="w-full h-full object-cover"
                 />
-                                <div className="absolute top-3 left-3 bg-slate-900/85 backdrop-blur-sm text-white p-2 rounded-lg">
+                <div className="absolute top-3 left-3 bg-slate-900/85 backdrop-blur-sm text-white p-2 rounded-lg">
                   <Plane className="w-5 h-5 text-blue-400" />
                 </div>
               </div>
